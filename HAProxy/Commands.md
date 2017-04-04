@@ -2,11 +2,13 @@
 sudo apt-get update && sudo apt-get upgrade -y
 sudo apt-get install haproxy
 
-## -Adicionar ao ficheiro /etc/default/haproxy a linha:
+## -Configurar HAProxy
+
+### -Adicionar ao ficheiro /etc/default/haproxy a linha:
 ENABLED=1 
 
 
-## -Ficheiro de configuração:
+### -Ficheiro de configuração:
 sudo cp /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg_bck
 sudo rm /etc/haproxy/haproxy.cfg && sudo vim /etc/haproxy/haproxy.cfg
 

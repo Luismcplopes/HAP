@@ -1,7 +1,7 @@
 # HAProxy
 
 
-
+* **Instalar **
 
 
 https://raw.githubusercontent.com/Luismcplopes/HAProxy/master/img/haproxystats.jpg

@@ -1,12 +1,14 @@
 # HAProxy
 
-https://raw.githubusercontent.com/Luismcplopes/HAProxy/master/img/haproxystats.jpg
-https://raw.githubusercontent.com/Luismcplopes/HAProxy/master/img/haproxy.jpg
+
+[![oratie button](https://raw.githubusercontent.com/Luismcplopes/HAProxy/master/img/haproxy.jpg)](http://oraite.com/)
 
 * Instalar e configurar WebServers1 
 * Instalar e configurar WebServers2
 * Instalar e configurar HAProxy
-* Testar
+* Testar e consultar estatisticas 
+
+
 
 
 # - Configuração do (WebServers1) e virtualhost test.dev
@@ -33,6 +35,8 @@ sudo a2ensite test.dev.conf
  /etc/init.d/apache2 restart
  
  
+ 
+ 
 #  Configuração do (webservers2) e virtualhost test.dev
 sudo apt-get update && sudo apt-get upgrade -y
 
@@ -57,6 +61,8 @@ sudo a2ensite test.dev.conf
  /etc/init.d/apache2 restart
 
 
+
+
 # -Instalar HAProxy
 ```
 sudo apt-get update && sudo apt-get upgrade -y
@@ -64,12 +70,10 @@ sudo apt-get update && sudo apt-get upgrade -y
 ```
 sudo apt-get install haproxy
 ```
-
 ## -Configurar HAProxy
 
 ### -Adicionar ao ficheiro /etc/default/haproxy a linha:
-ENABLED=1 
-
+ENABLED=1
 
 ### -Ficheiro de configuração:
 ```
@@ -78,8 +82,6 @@ sudo cp /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg_bck
 ```
 sudo rm /etc/haproxy/haproxy.cfg && sudo vim /etc/haproxy/haproxy.cfg
 ```
-
-
 ## - Restart ao serviço
 ```
 sudo service haproxy restart
@@ -99,6 +101,8 @@ sudo service haproxy restart
 ## Estatisticas
     admin:admin
     http://192.168.1.9/haproxy?stats
+    
+[![oratie button](https://raw.githubusercontent.com/Luismcplopes/HAProxy/master/img/haproxystats.jpg)](http://oraite.com/)
 
 
 

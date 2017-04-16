@@ -87,6 +87,18 @@ sudo service haproxy restart
 
 
 # Testar
+## Teste Haproxy
+    http://192.168.1.9/test.dev/
+    
+## webserver1
+    http://192.168.1.6/test.dev/
+    
+## webserver2
+    http://192.168.1.10/test.dev/
+
+## Estatisticas
+    admin:admin
+    http://192.168.1.9/haproxy?stats
 
 
 

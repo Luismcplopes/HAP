@@ -33,9 +33,8 @@ sudo nano /etc/apache2/sites-available/test.dev.conf
 sudo apache2ctl configtest
 sudo a2ensite test.dev.conf
  /etc/init.d/apache2 restart
- 
-![](https://raw.githubusercontent.com/Luismcplopes/HAProxy/master/img/websrv1.jpg)
 
+[![Github](https://raw.githubusercontent.com/Luismcplopes/HAProxy/master/img/websrv1.jpg)](https://github.com/Luismcplopes/HAProxy/)
  
  
 #  Configuração do (webservers2) e virtualhost test.dev

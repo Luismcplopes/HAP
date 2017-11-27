@@ -1,7 +1,7 @@
 # HAProxy
 
 
-[![oratie button](https://raw.githubusercontent.com/Luismcplopes/HAProxy/master/img/haproxy.jpg)](http://oraite.com/)
+[![Github](https://raw.githubusercontent.com/Luismcplopes/HAProxy/master/img/haproxy.jpg)](https://github.com/Luismcplopes/HAProxy/)
 
 * Instalar e configurar WebServers1 
 * Instalar e configurar WebServers2
@@ -34,7 +34,7 @@ sudo apache2ctl configtest
 sudo a2ensite test.dev.conf
  /etc/init.d/apache2 restart
  
- 
+[![Github](https://raw.githubusercontent.com/Luismcplopes/HAProxy/master/img/websrv1.jpg)](https://github.com/Luismcplopes/HAProxy/) 
  
  
 #  Configuração do (webservers2) e virtualhost test.dev
@@ -61,6 +61,7 @@ sudo a2ensite test.dev.conf
  /etc/init.d/apache2 restart
 
 
+[![Github](https://raw.githubusercontent.com/Luismcplopes/HAProxy/master/img/websrv2.jpg)](https://github.com/Luismcplopes/HAProxy/) 
 
 
 # -Instalar HAProxy
@@ -89,6 +90,13 @@ sudo service haproxy restart
 
 
 # Testar
+
+[![Github](https://raw.githubusercontent.com/Luismcplopes/HAProxy/master/img/srv-haproxy-stats.jpg)](http://oraite.com/)
+
+
+
+
+
 ## Teste Haproxy
     http://192.168.1.9/test.dev/
     
@@ -97,12 +105,16 @@ sudo service haproxy restart
     
 ## webserver2
     http://192.168.1.10/test.dev/
+    
+[![Github](https://raw.githubusercontent.com/Luismcplopes/HAProxy/master/img/haproxy-websrv1.jpg)](https://github.com/Luismcplopes/HAProxy/) 
+
+[![Github](https://raw.githubusercontent.com/Luismcplopes/HAProxy/master/img/haproxy-websrv2.jpg)](https://github.com/Luismcplopes/HAProxy/) 
 
 ## Estatisticas
     admin:admin
     http://192.168.1.9/haproxy?stats
     
-[![oratie button](https://raw.githubusercontent.com/Luismcplopes/HAProxy/master/img/haproxystats.jpg)](http://oraite.com/)
+[![Github](https://raw.githubusercontent.com/Luismcplopes/HAProxy/master/img/srv-haproxy-stats.jpg)](http://oraite.com/)
 
 
 

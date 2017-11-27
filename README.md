@@ -3,13 +3,13 @@
 
 [![Github](https://raw.githubusercontent.com/Luismcplopes/HAProxy/master/img/haproxy.jpg)](https://github.com/Luismcplopes/HAProxy/)
 
-- [Instalar e configurar WebServers1](#Instalar e configurar WebServers1) 
-- [Instalar e configurar WebServers2] (#Instalar e configurar WebServers2)
-- [Instalar e configurar HAProxy](#Instalar e configurar HAProxy)
-- [Testar e consultar estatisticas] (#Testar e consultar estatisticas) 
+- [Instalar e configurar WebServers1](#WebServers1) 
+- [Instalar e configurar WebServers2] (#WebServers2)
+- [Instalar e configurar HAProxy](#HAProxy)
+- [Testar e consultar estatisticas] (#Testarestatisticas) 
 
 # - Configuração do (WebServers1) e virtualhost test.dev 
-<a name="Instalar e configurar WebServers1"></a>
+<a name="WebServers1"></a>
 ```
 sudo apt-get update && sudo apt-get upgrade -y
 ```
@@ -47,7 +47,7 @@ sudo a2ensite test.dev.conf
  ```
 
 #  Configuração do (webservers2) e virtualhost test.dev
-<a name="Instalar e configurar WebServers2"></a>
+<a name="WebServers2"></a>
 ```
 sudo apt-get update && sudo apt-get upgrade -y
 ```
@@ -85,7 +85,7 @@ sudo a2ensite test.dev.conf
 
 
 # -Instalar HAProxy
-<a name="Instalar e configurar HAProxy"></a>
+<a name="HAProxy"></a>
 ```
 sudo apt-get update && sudo apt-get upgrade -y
 ```
@@ -110,7 +110,7 @@ sudo service haproxy restart
 ```
 
 # Testar
-<a name="Testar e consultar estatisticas"></a>
+<a name="Testarestatisticas"></a>
 [![Github](https://github.com/Luismcplopes/HAProxy/blob/master/img/all_haproxy.JPG)](https://github.com/Luismcplopes/HAProxy/)
 
 

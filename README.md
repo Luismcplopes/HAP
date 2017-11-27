@@ -4,12 +4,13 @@
 [![Github](https://raw.githubusercontent.com/Luismcplopes/HAProxy/master/img/haproxy.jpg)](https://github.com/Luismcplopes/HAProxy/)
 
 - [Instalar e configurar WebServers1](#WebServers1) 
-- [Instalar e configurar WebServers2] (#WebServers2)
+- [Instalar e configurar WebServers2](#WebServers2)
 - [Instalar e configurar HAProxy](#HAProxy)
-- [Testar e consultar estatisticas] (#Testarestatisticas) 
+- [Testar e consultar estatisticas](#Testarestatisticas) 
+
+<a name="WebServers1"></a>
 
 # - Configuração do (WebServers1) e virtualhost test.dev 
-<a name="WebServers1"></a>
 ```
 sudo apt-get update && sudo apt-get upgrade -y
 ```

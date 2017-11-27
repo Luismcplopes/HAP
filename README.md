@@ -3,13 +3,10 @@
 
 [![Github](https://raw.githubusercontent.com/Luismcplopes/HAProxy/master/img/haproxy.jpg)](https://github.com/Luismcplopes/HAProxy/)
 
-* Instalar e configurar WebServers1 
-* Instalar e configurar WebServers2
-* Instalar e configurar HAProxy
-* Testar e consultar estatisticas 
-
-
-
+* - Instalar e configurar WebServers1 
+* - Instalar e configurar WebServers2
+* - Instalar e configurar HAProxy
+* - Testar e consultar estatisticas 
 
 # - Configuração do (WebServers1) e virtualhost test.dev
 sudo apt-get update && sudo apt-get upgrade -y
@@ -34,9 +31,6 @@ sudo apache2ctl configtest
 sudo a2ensite test.dev.conf
  /etc/init.d/apache2 restart
 
-[![Github](https://github.com/Luismcplopes/HAProxy/blob/master/img/websrv1.JPG)](https://github.com/Luismcplopes/HAProxy/)
- 
- 
 #  Configuração do (webservers2) e virtualhost test.dev
 sudo apt-get update && sudo apt-get upgrade -y
 
@@ -60,8 +54,6 @@ sudo apache2ctl configtest
 sudo a2ensite test.dev.conf
  /etc/init.d/apache2 restart
 
-
-[![Github](https://raw.githubusercontent.com/Luismcplopes/HAProxy/master/img/websrv2.jpg)](https://github.com/Luismcplopes/HAProxy/) 
 
 
 # -Instalar HAProxy
@@ -88,36 +80,25 @@ sudo rm /etc/haproxy/haproxy.cfg && sudo vim /etc/haproxy/haproxy.cfg
 sudo service haproxy restart
 ```
 
-
 # Testar
-
-[![Github](https://raw.githubusercontent.com/Luismcplopes/HAProxy/master/img/srv-haproxy-stats.jpg)](http://oraite.com/)
-
-
-
+[![Github](https://github.com/Luismcplopes/HAProxy/blob/master/img/all_haproxy.JPG)](https://github.com/Luismcplopes/HAProxy/)
 
 
 ## Teste Haproxy
-    http://192.168.1.9/test.dev/
-    
+    http://192.168.1.6/test.dev/
+[![Github](https://github.com/Luismcplopes/HAProxy/blob/master/img/haproxy-websrv1.JPG)](https://github.com/Luismcplopes/HAProxy/)
+[![Github](https://github.com/Luismcplopes/HAProxy/blob/master/img/haproxy-websrv2.JPG)](https://github.com/Luismcplopes/HAProxy/)
 ## webserver1
     http://192.168.1.6/test.dev/
-    
+[![Github](https://github.com/Luismcplopes/HAProxy/blob/master/img/websrv1.JPG)](https://github.com/Luismcplopes/HAProxy/)  
 ## webserver2
     http://192.168.1.10/test.dev/
-    
-[![Github](https://raw.githubusercontent.com/Luismcplopes/HAProxy/master/img/haproxy-websrv1.jpg)](https://github.com/Luismcplopes/HAProxy/) 
-
-[![Github](https://raw.githubusercontent.com/Luismcplopes/HAProxy/master/img/haproxy-websrv2.jpg)](https://github.com/Luismcplopes/HAProxy/) 
+[![Github](https://github.com/Luismcplopes/HAProxy/blob/master/img/websrv2.JPG)](https://github.com/Luismcplopes/HAProxy/)
 
 ## Estatisticas
     admin:admin
     http://192.168.1.9/haproxy?stats
-    
-[![Github](https://raw.githubusercontent.com/Luismcplopes/HAProxy/master/img/srv-haproxy-stats.jpg)](http://oraite.com/)
-
-
-
+[![Github](https://github.com/Luismcplopes/HAProxy/blob/master/img/srv-haproxy-stats.JPG)](https://github.com/Luismcplopes/HAProxy/)
 
 
 

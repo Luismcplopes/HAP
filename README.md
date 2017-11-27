@@ -34,7 +34,7 @@ sudo apache2ctl configtest
 sudo a2ensite test.dev.conf
  /etc/init.d/apache2 restart
  
-![https://raw.githubusercontent.com/Luismcplopes/HAProxy/master/img/websrv1.jpg]()
+![](https://raw.githubusercontent.com/Luismcplopes/HAProxy/master/img/websrv1.jpg)
 
  
  

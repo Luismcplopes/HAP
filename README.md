@@ -132,5 +132,11 @@ sudo service haproxy restart
 [![Github](https://github.com/Luismcplopes/HAProxy/blob/master/img/srv-haproxy-stats.JPG)](https://github.com/Luismcplopes/HAProxy/)
 
 
+##### Mais Info
+- https://haproxy.debian.net/
+- https://upcloud.com/community/tutorials/haproxy-load-balancer-ubuntu/
+- https://pplware.sapo.pt/tutoriais/tutorial-balanceamento-de-carga-em-servidores-com-haproxy/
+
+
 
 
